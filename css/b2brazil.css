@@ -1,0 +1,229 @@
+/* MENU FIXO */
+
+body {
+  padding: 0;
+  padding-top: 80px;
+  margin: 0;
+  
+}
+
+.navbar {
+  background-color: #f9f9f9;
+  border-bottom: none;
+  border-top: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color:transparent;
+}
+.container{
+    margin-bottom: 1.5%;
+  
+    
+}
+.row{
+    padding: 2%;
+}
+
+
+/* Primeira etapa */
+
+#container_body {
+  background-color: #ddd;
+ 
+}
+p{
+    font-size: 12px;
+}
+strong {
+    color:#B9B9B9;
+    font-size: 35px;
+}
+h1{
+    color:#737373;
+}
+
+.btn-01{
+    border-radius: 5px;
+    margin-top: 8%;
+  
+}
+.col-md-6{
+    margin-bottom: 1%;
+}
+#paragrafo-01{
+    margin-top: 2%;
+    line-height: 25px;
+    font-style: bold;
+}
+#paragrafo-02, 
+#paragrafo-03,
+#paragrafo-04{
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+
+
+/* Segunda Parte */
+
+.segunda-parte{
+    background-color: #ddd;
+}
+.body_img02{
+    margin-left: 0;
+    margin-top: 2%;
+    
+}
+
+#homeClick:hover{
+     background-color: transparent;  
+     color: #337ab7;
+}
+#profileClick:hover{
+    background-color: transparent;  
+    color: #337ab7;
+}
+#namesClick:hover{
+    background-color: transparent;  
+    color: #337ab7;
+}
+#homeClick{
+    margin-top: 6%;
+}
+#profileClick{
+    margin-top: 6%;
+}
+#namesClick{
+    margin-top: 6%;
+}
+
+.segunda-parte{
+    margin-bottom: 2%;
+}
+#quadrado{
+   margin-top: 5%;
+}
+#paragrafo-01{
+    font-size: 14px;
+    font-style: strong;
+}
+#load:hover{
+  text-decoration: none;
+}
+#load{
+    cursor: pointer;
+
+    text-align: center;
+}
+
+
+#table-th{
+    text-align: center;
+    font-size: 12px;
+}
+.lista{
+    display: none;
+}
+.panel-title{
+    padding-left: 40%;
+    
+}
+.intro{
+    color:red;
+}
+
+#th-bg{
+    background-color: #ddd;
+}
+#esp{
+    text-align: center;
+}
+
+
+
+
+/* Terceira parte */
+.terceira-parte-mapa{
+    max-height: 700px;
+}
+#contato-form{
+    margin-bottom: 8%;
+    font-size: 24px;
+}
+.btn-ultimo{
+    
+    padding: 1%;
+    margin-top: 30px;
+    text-align: center;
+}
+.ultimo-container{
+    margin-bottom: 2%;
+}
+#table01{
+    display: none;
+}
+#ac{
+    width: 100%;
+  }
+.btn-accordion{
+   margin-left: 50%;
+   width: 100%;
+  }
+#btn-02{
+    margin-top: 3%;
+}
+.panel-collapse{
+    margin-top:-20px;
+}
+#link{
+    color:#337ab7;
+}
+
+
+
+/* Celular Abaixo de 321px */
+@media screen and (max-width: 767px) and (min-width: 321px) {
+    .container{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+ /* Posicionando div da Primeira Parte */
+@media screen and (min-width: 320px) and (max-width: 992px){
+  
+ 
+    .mobile-01 {
+        width: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        
+    }
+    .body_p{
+        width: 100%;
+        order:1;
+    }
+    .body_img01{
+        width: 100%;
+        order: 0;
+        
+    }
+
+    /* Posicionando o mapa  */
+    @media screen and (min-width: 320px) and (max-width: 991px){
+    .mapa{
+        width: 100%;
+    }
+  }
